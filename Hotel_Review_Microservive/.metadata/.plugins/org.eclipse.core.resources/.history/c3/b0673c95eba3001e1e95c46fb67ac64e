@@ -1,0 +1,8 @@
+package com.userservice.external.service;
+
+import org.springframework.cloud.openfeign.FeignClient;
+
+@FeignClient(name = "RATING-SERVICE")
+public interface RatingServiceFeign {
+
+}
